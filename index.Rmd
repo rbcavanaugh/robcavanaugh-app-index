@@ -1,0 +1,26 @@
+---
+title: "Shiny apps and R Projects"
+description: |
+        The current collection of shiny apps and r packages I've begin to accumulate
+css: "shiny.css"
+output: distill::distill_article
+---
+
+```{r layout = "l-body-outset", results = "asis", echo = FALSE, warning = FALSE, message = FALSE}
+quillt::examples(
+     yml = "examples.yml",
+     caption = TRUE,
+     showcaseOnly = FALSE,
+     shinyOnly = FALSE
+ ) 
+```
+
+</br>
+
+<center>
+
+Contact Rob: &nbsp; [`r icon::fa("github")`](https://github.com/rbcavanaugh){style="border:0px;"} &nbsp; [`r icon::fa("envelope")`](mailto:rob.cavanaugh@pitt.edu){style="border:0px;"} &nbsp; [`r icon::fa("globe")`](https://robcavanaugh.me){style="border:0px;"} &nbsp; [`r icon::fa("twitter")`](https://twitter.com/littlejohnsband){style="border:0px;"} 
+
+Last updated on `r Sys.Date()`.
+
+</center>
